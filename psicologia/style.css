@@ -100,6 +100,19 @@ h1, h2, h3, h4 {
     display: block;
 }
 
+/* Espaço e alinhamento para o nome ao lado do ícone da marca */
+.brand-name {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo da fonte do nome da profissional na navbar */
+.navbar .logo-font {
+    color: var(--primary-pink);
+    font-size: 1.4rem;
+    line-height: 1;
+}
+
 /* Define a espessura da fonte, cor escura e tamanho para os links do menu */
 .nav-link {
     font-weight: 600;
